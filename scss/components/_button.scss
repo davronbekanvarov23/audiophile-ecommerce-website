@@ -1,0 +1,34 @@
+.btn {
+  color: $white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 15px 29.5px 15px 31.5px;
+  transition: $transtion-duration;
+}
+.btn-orange {
+  background-color: $btn-bg;
+
+  &:hover {
+    background-color: $btn-hover;
+  }
+}
+.btn-black {
+  background-color: $black;
+
+  &:hover {
+    background-color: $black-btn-hover;
+  }
+}
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid $black;
+  color: $black;
+  &:hover {
+    background-color: $black;
+    color: $white;
+  }
+}
