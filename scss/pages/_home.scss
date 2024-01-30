@@ -1,6 +1,6 @@
 .hero {
   height: 632px;
-  margin-bottom: 120px;
+  margin-bottom: 200px;
   background-image: url(../../images/home/desktop/image-hero.jpg);
   background-position: bottom;
   background-color: $black;
@@ -38,6 +38,10 @@
 }
 .btn-orange {
 }
+
+.shop {
+}
+
 
 .ZX9-SPEAKER {
   border-radius: 8px;
@@ -90,23 +94,4 @@
     margin-bottom: 32px;
   }
 }
-.audio-gear {
-  display: flex;
-  gap: 125px;
-  margin-bottom: 200px;
-  img{border-radius:8px;}
-}
-.audio-gear__content {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 147px;
-  width: 445px;
-  span {
-    color: $btn-bg;
-  }
-  p {
-    width: 428px;
-    opacity: 0.5;
-  }
-}
+

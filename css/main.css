@@ -346,6 +346,17 @@ template {
   color: #fff;
 }
 
+.shop__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.shop__button p {
+  color: #000;
+  opacity: 0.5;
+}
+
 header {
   padding: 35px 0;
   background-color: #000;
@@ -439,7 +450,7 @@ header {
 
 .hero {
   height: 632px;
-  margin-bottom: 120px;
+  margin-bottom: 200px;
   background-image: url(../../images/home/desktop/image-hero.jpg);
   background-position: bottom;
   background-color: #000;
@@ -528,30 +539,6 @@ header {
 .YX1-EARPHONES__content h4 {
   width: 265px;
   margin-bottom: 32px;
-}
-
-.audio-gear {
-  display: flex;
-  gap: 125px;
-  margin-bottom: 200px;
-}
-.audio-gear img {
-  border-radius: 8px;
-}
-
-.audio-gear__content {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin-top: 147px;
-  width: 445px;
-}
-.audio-gear__content span {
-  color: #d87d4a;
-}
-.audio-gear__content p {
-  width: 428px;
-  opacity: 0.5;
 }
 
 @font-face {
@@ -700,4 +687,56 @@ main {
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.shop__list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 168px;
+}
+
+.shop__item {
+  cursor: pointer;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+.shop__item:hover p {
+  color: #d87d4a;
+}
+.shop__item h6 {
+  margin-bottom: 15px;
+  width: 118px;
+}
+
+.audio-gear {
+  display: flex;
+  gap: 125px;
+  margin-bottom: 200px;
+}
+.audio-gear img {
+  border-radius: 8px;
+}
+
+.audio-gear__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 147px;
+  width: 445px;
+}
+.audio-gear__content span {
+  color: #d87d4a;
+}
+.audio-gear__content p {
+  width: 428px;
+  opacity: 0.5;
 }/*# sourceMappingURL=main.css.map */

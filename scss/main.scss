@@ -67,7 +67,6 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
-  
 }
 h1,
 h2,
@@ -139,8 +138,62 @@ main {
   text-decoration: underline;
 }
 
-.device {width: 100%;
+.device {
+  width: 100%;
   max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
+}
+// SECTION-SHOP
+.shop__list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 168px;
+}
+
+.shop__item {
+  cursor: pointer;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 350px;
+  height: 204px;
+  background-color: $gray;
+  border-radius: 8px;
+  &:hover p {
+    color: $btn-bg;
+  } 
+  h6 {
+    margin-bottom: 15px;
+    width: 118px;
+  }
+}
+
+// AUDIO-GRAY
+
+.audio-gear {
+  display: flex;
+  gap: 125px;
+  margin-bottom: 200px;
+  img {
+    border-radius: 8px;
+  }
+}
+.audio-gear__content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 147px;
+  width: 445px;
+  span {
+    color: $btn-bg;
+  }
+  p {
+    width: 428px;
+    opacity: 0.5;
+  }
 }
